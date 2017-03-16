@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0257711D8BF9D7003821B5 /* FlickrConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0257701D8BF9D7003821B5 /* FlickrConnection.swift */; };
+		DB206AAF1D4EAA0800A18218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206AAE1D4EAA0800A18218 /* AppDelegate.swift */; };
+		DB206AB11D4EAA0800A18218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206AB01D4EAA0800A18218 /* ViewController.swift */; };
+		DB206AB41D4EAA0800A18218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB206AB21D4EAA0800A18218 /* Main.storyboard */; };
+		DB206AB71D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB206AB51D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodeld */; };
+		DB206AB91D4EAA0800A18218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB206AB81D4EAA0800A18218 /* Assets.xcassets */; };
+		DB206ABC1D4EAA0800A18218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB206ABA1D4EAA0800A18218 /* LaunchScreen.storyboard */; };
+		DB206AC41D4EABA800A18218 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206AC31D4EABA800A18218 /* DetailViewController.swift */; };
+		DB206AC81D4EB87400A18218 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206AC61D4EB87400A18218 /* Word.swift */; };
+		DB206ACE1D4F6D9D00A18218 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206ACD1D4F6D9D00A18218 /* Word+CoreDataProperties.swift */; };
+		DB206AD21D4FCBB300A18218 /* first.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DB206AD11D4FCBB300A18218 /* first.jpeg */; };
+		DB3A87EB1D515962000EF540 /* FlickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A87EA1D515962000EF540 /* FlickerCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB0257701D8BF9D7003821B5 /* FlickrConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrConnection.swift; sourceTree = "<group>"; };
+		DB206AAB1D4EAA0800A18218 /* Vocabulary Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vocabulary Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB206AAE1D4EAA0800A18218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB206AB01D4EAA0800A18218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB206AB31D4EAA0800A18218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB206AB61D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vocabulary_Builder.xcdatamodel; sourceTree = "<group>"; };
+		DB206AB81D4EAA0800A18218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB206ABB1D4EAA0800A18218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB206ABD1D4EAA0800A18218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB206AC31D4EABA800A18218 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DB206AC61D4EB87400A18218 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Word.swift; path = ../Word.swift; sourceTree = "<group>"; };
+		DB206ACD1D4F6D9D00A18218 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Word+CoreDataProperties.swift"; path = "../Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DB206AD11D4FCBB300A18218 /* first.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpeg; sourceTree = "<group>"; };
+		DB3A87EA1D515962000EF540 /* FlickerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB206AA81D4EAA0800A18218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB206AA21D4EAA0700A18218 = {
+			isa = PBXGroup;
+			children = (
+				DB206AAD1D4EAA0800A18218 /* Vocabulary Builder */,
+				DB206AAC1D4EAA0800A18218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB206AAC1D4EAA0800A18218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB206AAB1D4EAA0800A18218 /* Vocabulary Builder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB206AAD1D4EAA0800A18218 /* Vocabulary Builder */ = {
+			isa = PBXGroup;
+			children = (
+				DB206AD11D4FCBB300A18218 /* first.jpeg */,
+				DB206ACD1D4F6D9D00A18218 /* Word+CoreDataProperties.swift */,
+				DB206AC61D4EB87400A18218 /* Word.swift */,
+				DB206AAE1D4EAA0800A18218 /* AppDelegate.swift */,
+				DB206AB01D4EAA0800A18218 /* ViewController.swift */,
+				DB206AB21D4EAA0800A18218 /* Main.storyboard */,
+				DB206AC31D4EABA800A18218 /* DetailViewController.swift */,
+				DB3A87EA1D515962000EF540 /* FlickerCollectionViewController.swift */,
+				DB0257701D8BF9D7003821B5 /* FlickrConnection.swift */,
+				DB206AB81D4EAA0800A18218 /* Assets.xcassets */,
+				DB206ABA1D4EAA0800A18218 /* LaunchScreen.storyboard */,
+				DB206ABD1D4EAA0800A18218 /* Info.plist */,
+				DB206AB51D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodeld */,
+			);
+			path = "Vocabulary Builder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB206AAA1D4EAA0800A18218 /* Vocabulary Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB206AC01D4EAA0800A18218 /* Build configuration list for PBXNativeTarget "Vocabulary Builder" */;
+			buildPhases = (
+				DB206AA71D4EAA0800A18218 /* Sources */,
+				DB206AA81D4EAA0800A18218 /* Frameworks */,
+				DB206AA91D4EAA0800A18218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vocabulary Builder";
+			productName = "Vocabulary Builder";
+			productReference = DB206AAB1D4EAA0800A18218 /* Vocabulary Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB206AA31D4EAA0700A18218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AStevensProductions;
+				TargetAttributes = {
+					DB206AAA1D4EAA0800A18218 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 784436Q99F;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = DB206AA61D4EAA0700A18218 /* Build configuration list for PBXProject "Vocabulary Builder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB206AA21D4EAA0700A18218;
+			productRefGroup = DB206AAC1D4EAA0800A18218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB206AAA1D4EAA0800A18218 /* Vocabulary Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB206AA91D4EAA0800A18218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB206ABC1D4EAA0800A18218 /* LaunchScreen.storyboard in Resources */,
+				DB206AB91D4EAA0800A18218 /* Assets.xcassets in Resources */,
+				DB206AD21D4FCBB300A18218 /* first.jpeg in Resources */,
+				DB206AB41D4EAA0800A18218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB206AA71D4EAA0800A18218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB206AB71D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodeld in Sources */,
+				DB206AB11D4EAA0800A18218 /* ViewController.swift in Sources */,
+				DB206AAF1D4EAA0800A18218 /* AppDelegate.swift in Sources */,
+				DB206AC41D4EABA800A18218 /* DetailViewController.swift in Sources */,
+				DB3A87EB1D515962000EF540 /* FlickerCollectionViewController.swift in Sources */,
+				DB206AC81D4EB87400A18218 /* Word.swift in Sources */,
+				DB0257711D8BF9D7003821B5 /* FlickrConnection.swift in Sources */,
+				DB206ACE1D4F6D9D00A18218 /* Word+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB206AB21D4EAA0800A18218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB206AB31D4EAA0800A18218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB206ABA1D4EAA0800A18218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB206ABB1D4EAA0800A18218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB206ABE1D4EAA0800A18218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB206ABF1D4EAA0800A18218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB206AC11D4EAA0800A18218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vocabulary Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BFS.Vocabulary-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		DB206AC21D4EAA0800A18218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vocabulary Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BFS.Vocabulary-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB206AA61D4EAA0700A18218 /* Build configuration list for PBXProject "Vocabulary Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB206ABE1D4EAA0800A18218 /* Debug */,
+				DB206ABF1D4EAA0800A18218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB206AC01D4EAA0800A18218 /* Build configuration list for PBXNativeTarget "Vocabulary Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB206AC11D4EAA0800A18218 /* Debug */,
+				DB206AC21D4EAA0800A18218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB206AB51D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB206AB61D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodel */,
+			);
+			currentVersion = DB206AB61D4EAA0800A18218 /* Vocabulary_Builder.xcdatamodel */;
+			path = Vocabulary_Builder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB206AA31D4EAA0700A18218 /* Project object */;
+}
