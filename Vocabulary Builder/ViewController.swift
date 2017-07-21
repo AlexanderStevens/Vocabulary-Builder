@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     // cell reuse identifier = Cell
     
     @IBOutlet weak var tableView: UITableView!
-    
+
     var wordsArray = [Word]()
     var managedContext: NSManagedObjectContext!
     
